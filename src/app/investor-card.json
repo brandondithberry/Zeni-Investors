@@ -7,22 +7,8 @@
       "targetFunction": "crm-card",
       "objectTypes": [
         {
-          "name": "p_events",
-          "propertiesToSend": [
-            "event_name",
-            "total_attendees",
-            "total_registrants",
-            "associated_deals",
-            "closed_won_deals",
-            "attributed_revenue",
-            "closed_won_revenue",
-            "associated_contacts",
-            "event_cpl",
-            "associated_companies",
-            "expense_name",
-            "expense_price",
-            "expense_quantity"
-          ]
+          "name": "associated_companies",
+          "propertiesToSend": ["name", "domain"]
         }
       ]
     }
