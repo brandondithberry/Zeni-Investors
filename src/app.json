@@ -1,13 +1,13 @@
 {
-  "name": "Events App",
-  "description": "A Zeni Events app to enahance the Events Custom Object.",
-  "scopes": ["crm.objects.custom.read", "crm.objects.custom.write"],
+  "name": "Investor App",
+  "description": "A Zeni Investor app to enahance the Investor Companies View.",
+  "scopes": ["crm.objects.companies.read", "crm.objects.companies.write"],
   "public": false,
   "extensions": {
     "crm": {
       "cards": [
         {
-          "file": "./event-card.json"
+          "file": "./investor-card.json"
         }
       ]
     }
