@@ -10,7 +10,7 @@ exports.main = async (context = {}, sendResponse) => {
           type: 'crm::table',
           objectTypeId: '0-2',
           properties: ['name', 'domain', 'hs_object_id'],
-          pageSize: 3
+          pageSize: 10
       }
       ],
     });
