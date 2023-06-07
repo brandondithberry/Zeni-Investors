@@ -7,7 +7,7 @@
       "targetFunction": "crm-card",
       "objectTypes": [
         {
-          "name": "associated_companies",
+          "name": "companies",
           "propertiesToSend": ["name", "domain"]
         }
       ]
