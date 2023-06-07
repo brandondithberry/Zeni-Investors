@@ -9,7 +9,7 @@ exports.main = async (context = {}, sendResponse) => {
       {
           type: 'crm::table',
           objectTypeId: '0-2',
-          properties: ['name', 'ceo', 'industry', 'city', 'state', 'last_touchpoint', 'total_number_of_touchpoints'],
+          properties: ['name', 'ceo', 'industry', 'location__city__state_', 'last_touchpoint', 'total_number_of_touchpoints'],
           pageSize: 10
       }
       ],
